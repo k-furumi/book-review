@@ -8,6 +8,12 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "nuxt": "3.0.0"
+    "nuxt": "3.0.0",
+    "sass": "^1.57.1"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.4.6",
+    "mdi": "^2.2.43",
+    "vuetify": "^3.1.1"
   }
 }

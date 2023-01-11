@@ -7,7 +7,7 @@ services:
   web:
     container_name: book-web
     build:
-      context: docker/dev/nginx
+      context: docker/nginx
       dockerfile: Dockerfile
     volumes:
       - ./book-backend/app/public:/var/www/app/public

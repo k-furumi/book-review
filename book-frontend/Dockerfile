@@ -9,11 +9,8 @@ RUN apk update && \
 
 ENV TZ Asia/Tokyo
 
-COPY --from=build-env /app /var/www/web
-
 COPY . /var/www/
 
-RUN cp ./.env.develop ./.env
 RUN npm install
 
 
